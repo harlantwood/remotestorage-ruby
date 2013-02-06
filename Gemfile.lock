@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/harlantwood/polystore.git
-  revision: d2a969b2b2c93cc3ee1f0641193ceb4e387e9181
+  revision: 34985c3fc1bf779a5b2d2602c659d37b0d5297c7
   specs:
     polystore (0.0.1)
       activesupport (>= 3.0.0)
