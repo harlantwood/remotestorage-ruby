@@ -12,9 +12,9 @@ class Node < ActiveRecord::Base
           node.update_attributes!(:binary => binary, :data => data, :content_type => content_type)
         else
           create!(:binary => binary, :path => path, :data => data, :directory => false, :content_type => content_type)
-          RemoteStorage::STORES.put_text path, data #, :content_type => content_type
         end
       end
+      RemoteStorage::STORES.put_text path, data #, :content_type => content_type
     end
 
     def by_path(path)
