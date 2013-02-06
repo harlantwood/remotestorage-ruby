@@ -18,6 +18,7 @@ end
 module RemoteStorage
 
   HOSTNAME = ENV['HOSTNAME'] || 'local.dev'
+  STORES = ::PolyStore.create(ENV['POLYSTORES'] || 'file')
 
   class Application < Rails::Application
 

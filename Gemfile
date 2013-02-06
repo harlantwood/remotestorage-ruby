@@ -18,6 +18,8 @@ gem 'formtastic'
 gem 'pg'
 gem 'unicorn'
 
+gem 'polystore', :git => 'git://github.com/harlantwood/polystore.git'
+
 group :development do
   gem 'sqlite3'
 end
