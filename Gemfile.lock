@@ -1,5 +1,6 @@
-PATH
-  remote: ~/HKB/code/mine/polystore
+GIT
+  remote: git://github.com/harlantwood/polystore.git
+  revision: d2a969b2b2c93cc3ee1f0641193ceb4e387e9181
   specs:
     polystore (0.0.1)
       activesupport (>= 3.0.0)
