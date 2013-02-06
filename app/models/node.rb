@@ -18,7 +18,7 @@ class Node < ActiveRecord::Base
     end
 
     def by_path(path)
-      directory = !!(path =~ /\/$/)
+      directory = path.end_with? '/'
       where(:path => clean_path(path), :directory => directory).first
     end
 
