@@ -1,11 +1,12 @@
 GIT
   remote: git://github.com/harlantwood/polystore.git
-  revision: 34985c3fc1bf779a5b2d2602c659d37b0d5297c7
+  revision: dbf1621670202f00eac523aa3f63dcc4c33d0dd8
   specs:
     polystore (0.0.1)
       activesupport (>= 3.0.0)
-      easy_shell
+      easy_shell (~> 0.0.1)
       github_api (~> 0.6.0)
+      rest-client (~> 1.6.7)
 
 GEM
   remote: http://rubygems.org/
@@ -122,6 +123,8 @@ GEM
     rake (0.9.2.2)
     rdoc (3.12)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rspec (2.8.0)
       rspec-core (~> 2.8.0)
       rspec-expectations (~> 2.8.0)
